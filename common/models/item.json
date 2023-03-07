@@ -1,0 +1,20 @@
+{
+    "name": "item",
+    "base": "PersistedModel",
+    "discription": "when you create a loopback model using 'lb model' command, it will create a json file like the current item.json file",
+    "properties": {
+      "id": {
+        "type": "number",
+        "id": true
+      },
+      "name": {
+        "type": "string",
+        "required": true
+      },
+      "description": {
+        "type": "string"
+      }
+    },
+    "dataSource": "db"
+  }
+  

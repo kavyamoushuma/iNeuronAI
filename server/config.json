@@ -1,0 +1,37 @@
+{
+    "remoting": {
+        "context": false,
+        "rest": {
+          "handleErrors": false,
+          "normalizeHttpPath": false,
+          "xml": false
+        },
+        "json": {
+          "strict": false,
+          "limit": "100kb"
+        },
+        "http": {
+          "path": "/",
+          "cors": {
+            "origin": "*",
+            "credentials": true,
+            "maxAge": 86400
+          }
+        },
+        "swagger": {
+          "protocol": "http",
+          "host": "localhost:3000",
+          "basePath": "/api",
+          "info": {
+            "title": "MyApp",
+            "description": "",
+            "version": "1.0.0"
+          },
+          "securityDefinitions": {},
+          "security": [],
+          "produces": ["application/json"],
+          "consumes": ["application/json"]
+        }
+      }
+      
+}

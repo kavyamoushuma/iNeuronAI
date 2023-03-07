@@ -1,0 +1,28 @@
+{
+    "name": "ineuron",
+    "version": "1.0.0",
+    "description": "My project description",
+    "main": "server.js",
+    "scripts": {
+      "test": "mocha",
+      "lint": "eslint .",
+      "fix-lint": "eslint --fix",
+      "migrate": "node . -m"
+    },
+    "dependencies": {
+      "loopback": "^3.0.0",
+      "loopback-boot": "^3.0.0",
+      "loopback-connector-postgresql": "^5.0.0",
+      "pg": "^8.0.0",
+      "swagger-ui-express": "^4.1.6"
+    },
+    "devDependencies": {
+      "chai": "^4.3.4",
+      "mocha": "^9.2.3",
+      "supertest": "^6.1.6",
+      "util": "^0.12.4",
+      "chalk": "^4.1.2",
+      "eslint": "^8.11.0"
+    }
+  }
+  
